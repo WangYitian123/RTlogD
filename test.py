@@ -61,7 +61,7 @@ def main(smiles_list,args, exp_config, test_set):
     test_loader = DataLoader(dataset=test_set, batch_size=exp_config['batch_size'],
                              collate_fn=collate_molgraphs, num_workers=args['num_workers'])
     model = load_model(exp_config).to(args['device'])
-    checkpoint = torch.load("final_model/RTlogD/model_pretrain_76.pth",map_location=torch.device('cpu'))#my_model/CRT76-logD/model_pretrain_76.pth"
+    checkpoint = torch.load("final_model/RTlogD/model_pretrain_76.pth",map_location=torch.device('cpu'))
     model.load_state_dict(checkpoint)
     run_an_eval_epoch(smiles_list,args, model, test_loader)
 

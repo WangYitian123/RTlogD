@@ -17,7 +17,7 @@ Dependencies：
 
 # Training
 
-Run train.py script to train the data based on M-data. The final_model folder gives the trained model of RTlogD. The RT_pre-trained model folder provides the RT model.
+Run train.py script to train the data based on DB29-data. The final_model folder gives the trained model of RTlogD. The RT_pre-trained model folder provides the RT model.
 
 # Test
 
@@ -27,7 +27,7 @@ Run train.py script to train the data based on M-data. The final_model folder gi
 
 The folder of Ablation_studies gives the model of ablation studies and different training studies, all the predicted results can be found in T-data_predictions(chembl32_logD).csv. The lipo_result provides the prediction results of RTlogD on lipo dataset.
 
-####  Predicting logD values of new data
+#### Predicting logD values of new data
 
 ```
 1. Put the data into example.csv
@@ -38,4 +38,3 @@ The folder of Ablation_studies gives the model of ablation studies and different
 # Author
 
 s20-wangyitian@simm.ac.cn
-
