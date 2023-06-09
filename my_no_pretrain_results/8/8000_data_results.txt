@@ -1,0 +1,2 @@
+This doesnot use RT pretrain, only use the 8000 data volum
+0.789
