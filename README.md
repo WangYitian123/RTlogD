@@ -39,11 +39,11 @@ The folder of Ablation_studies gives the model of ablation studies and different
 
 1. Put the data into example.csv
 
-```
-2. python test.py 
-```
+2. ```
+    python test.py 
+   ```
 
-3. The predicted results will be shown in the results folder.
+3.  The predicted results will be shown in the results folder.
 
 # Author
 
