@@ -25,7 +25,7 @@ python test_T_data.py
 
 Run the above script to get the results of RTlogD on T-data.
 
-The folder of Ablation_studies gives the model of ablation studies and different training studies, all the predicted results can be found in T-data_predictions(chembl32_logD).csv. 
+#### For predicting new molecules
 
 1. Put the data into example.csv
 
