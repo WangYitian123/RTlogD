@@ -1,2 +1,0 @@
-This use RT pretrain and use the 10000 data volum
-0.72
